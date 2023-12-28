@@ -1,0 +1,50 @@
+.flag {
+    padding-left: 100px;
+}
+#ora {
+    background-color: orange;
+    height: 40px;
+    width: 220px;
+    border: 1px solid black;
+}
+#cir {
+    padding-left: 90px;
+    border: 1px solid black;
+    width: 130px;
+} 
+#gre {
+    background-color: green;
+    height: 40px;
+    width: 220px;
+    border: 1px solid black;
+}
+#sti {
+    background-color: black;
+    width: 10px;
+    height: 450px;
+    margin-top: -129px;
+} 
+#stp1 {
+    background-color: rgb(77, 60, 38);
+    height: 20px;
+    width: 80px;
+    margin-top: -20px;
+    margin-left: -30px;
+    border: 1px solid black;
+}
+#stp2 {
+    background-color: rgb(77, 60, 38);
+    height: 20px;
+    width: 100px;
+    margin-top: -2px;
+    margin-left: -39px;
+    border: 1px solid black;
+}
+#stp3 {
+    background-color: rgb(77, 60, 38);
+    height: 20px;
+    width: 120px;
+    margin-top: -2px;
+    margin-left: -49px;
+    border: 1px solid black;
+}
