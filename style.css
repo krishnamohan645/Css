@@ -1,0 +1,37 @@
+.ts {
+    background-color: black;
+    height: 160px;
+    width: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+#red {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px; 
+    padding-top: 20px;
+}
+#green {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 20px;
+}    
+#orange {
+    background-color: orange;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 20px;
+}
+#black {
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-left: 15px;
+}
