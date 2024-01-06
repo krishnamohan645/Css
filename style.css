@@ -1,0 +1,127 @@
+iframe {
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.head {
+    background-color: rgb(41, 204, 41);
+    width: 400px;
+    height: 60px;
+    position: relative;
+    left: 200px;
+    bottom: 600px;
+}
+#line {
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin: 4px 0;
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+h2 {
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 150px;
+}
+img[alt="phone"] {
+    position: relative;
+    bottom: 70px;
+    left: 350px;
+}
+.pk {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -600px;
+    left: 200px;
+}
+.pick {
+    color: black;
+    position: relative;
+    top: -703px;
+    left: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.off {
+    background-color: rgb(94, 94, 255);
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -650px;
+    left: 400px;
+}
+.drp {
+    color: white; 
+    position: relative;
+    top: -745px;
+    left: 450px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cl {
+    background-color: white;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    top: -730px;
+    left: 210px;
+}
+img[alt="cal"] {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.date {
+    font-size: x-large;
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+.tm {
+    background-color: white;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    top: -850px;
+    left: 401px;
+}
+.bor {
+    background-color: black;
+    height: 60px;
+    width: 1px;
+    position: relative;
+    top: -790px;
+    left: 400px;
+}
+img[alt="tim"] {
+    position: relative;
+    top: 15px;
+    left: 10px
+}
+.time {
+    position: relative;
+    font-size: xx-large;
+    top: -54px;
+    left: 50px;
+}
+.footer {
+    background-color:  rgb(133, 133, 225);
+    width: 380px;
+    height: 60px;
+    position: relative;
+    top: -520px;
+    left: 210px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
