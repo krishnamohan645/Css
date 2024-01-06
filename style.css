@@ -1,0 +1,20 @@
+img {
+    position: absolute;
+    display: flex;
+    display: none;
+}
+.thor:checked~img[alt="thor"] {
+    display: flex;
+}
+.ironman:checked~img[alt="ironman"] {
+    display: flex;
+}
+.hulk:checked~img[alt="hulk"] {
+    display: flex;
+}
+.spiderman:checked~img[alt="spiderman"] {
+    display: flex;
+}
+.captainamerica:checked~img[alt="captainamerica"] {
+    display: flex;
+}
