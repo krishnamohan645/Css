@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+        }
+        .item {
+            padding: 20px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .item1 {
+            background-color: rgb(20, 202, 139);
+            grid-column: 1/4;
+        }
+        .item2 {
+            background-color: rgb(31, 211, 31);
+            grid-column: 1/4;
+        }
+        .item3 {
+            background-color: rgba(28, 240, 28, 0.792);
+            grid-column: 1;
+            grid-row: 3/5;
+            grid-template-rows: 400px;
+        }
+        .item4 {
+            background-color: rgb(116, 116, 216);
+            grid-column: 2/4;
+        }
+        .item5 {
+            background-color: rgb(76, 27, 128);
+            grid-column: 2/4;
+       }
+        .item6 {
+            background-color: rgb(20, 202, 139);
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item item1">Header</div>
+        <div class="item item2">Navigation</div>
+        <div class="item item3">Aside</div>
+        <div class="item item4">Content</div>
+        <div class="item item5">Section</div>
+        <div class="item item6">Footer</div>
+    </div>
+</body>
+</html>
