@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transitions</title>
+    <style>
+        body {
+            margin: 20px;
+            background-color: grey;
+        }
+
+        img {
+            position: relative;
+            left: 500px;
+            top: -900px;
+        }
+
+        label {
+            position: relative;
+            left: 40px;
+            top: -25px;
+            background-color: rgba(0, 0, 0, 0.336);
+            font-size: large;
+            width: 350px;
+            height: 10px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        label:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .none:checked~img {
+            transform: none;
+        }
+
+        .rotate:checked~img {
+            transform: rotate(10deg);
+        }
+
+        .rotate1:checked~img {
+            transform: rotate(45deg);
+        }
+
+        .rotatex:checked~img {
+            transform: rotateX(45deg);
+        }
+
+        .rotatex1:checked~img {
+            transform: rotateX(100deg);
+        }
+
+        .rotatey:checked~img {
+            transform: rotateY(45deg);
+        }
+
+        .rotatey1:checked~img {
+            transform: rotateY(80deg);
+        }
+
+        .skew:checked~img {
+            transform: skew(20deg, 20deg);
+        }
+
+        .skew1:checked~img {
+            transform: skew(30deg, 30deg);
+        }
+
+        .skewx:checked~img {
+            transform: skewX(30deg);
+        }
+
+        .skewx1:checked~img {
+            transform: skewX(40deg);
+        }
+
+        .skewy:checked~img {
+            transform: skewY(30deg);
+        }
+
+        .skewy1:checked~img {
+            transform: skewY(40deg);
+        }
+
+        .translate:checked~img {
+            transform: translate(20px, 10px);
+        }
+
+        .translate1:checked~img {
+            transform: translate(20px, 20px);
+        }
+
+        .scale:checked~img {
+            transform: scale(2, 2);
+        }
+
+        .scale1:checked~img {
+            transform: scale(2, 3);
+        }
+
+        .matrix:checked~img {
+            transform: matrix(0.866, 0.7, -0.8, 0.866, 0, 0);
+        }
+
+        .matrix1:checked~img {
+            transform: matrix(0.586, 0.8, -0.8, 0.586, 0, 0);
+        }
+
+        .matrix2:checked~img {
+            transform: matrix(0.586, 0.8, -0.8, 0.586, 40, 30);
+        }
+        @media only screen and (max-width: 1000px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <input type="radio" name="transform" value="none" class="none" /><label for="none">transform: none;</label>
+
+    <input type="radio" name="transform" value="rotate" class="rotate" /><label for="rotate">transform:
+        rotate(10deg);</label>
+
+    <input type="radio" name="transform" value="rotate1" class="rotate1" /><label for="rotate1">transform:
+        rotate(45deg);</label>
+
+    <input type="radio" name="transform" value="rotatex" class="rotatex" /><label for="rotatex">transform:
+        rotateX(45deg);</label>
+
+    <input type="radio" name="transform" value="rotatex1" class="rotatex1" /><label for="rotatex1">transform:
+        rotateX(100deg);</label>
+
+    <input type="radio" name="transform" value="rotatey" class="rotatey" /><label for="rotatey">transform:
+        rotateY(45deg);</label>
+
+    <input type="radio" name="transform" value="rotatey1" class="rotatey1" /><label for="rotatey1">transform:
+        rotateY(80deg);</label>
+
+    <input type="radio" name="transform" value="skew" class="skew" /><label for="skew">transform:
+        skew(20deg,20deg);</label>
+
+    <input type="radio" name="transform" value="skew1" class="skew1" /><label for="skew1">transform:
+        skew(30deg,30deg);</label>
+
+    <input type="radio" name="transform" value="skewx" class="skewx" /><label for="skewx">transform:
+        skewX(30deg);</label>
+
+    <input type="radio" name="transform" value="skewx1" class="skewx1" /><label for="skewx1">transform:
+        skewX(40deg);</label>
+
+    <input type="radio" name="transform" value="skewy" class="skewy" /><label for="skewy">transform:
+        skewY(30deg);</label>
+
+    <input type="radio" name="transform" value="skewy" class="skewy1" /><label for="skewy1">transform:
+        skewY(40deg);</label>
+
+    <input type="radio" name="transform" value="translate" class="translate" /><label for="translate">transform:
+        translate(20px,10px);</label>
+
+    <input type="radio" name="transform" value="translate1" class="translate1" /><label for="translate1">transform:
+        translate(20px,20px);</label>
+
+    <input type="radio" name="transform" value="scale" class="scale" /><label for="scale">transform: scale(2,2);</label>
+
+    <input type="radio" name="transform" value="scale1" class="scale1" /><label for="scale1">transform:
+        scale(2,3);</label>
+
+    <input type="radio" name="transform" value="matrix" class="matrix" /><label for="matrix">transform:
+        matrix(0.866,0.7,-0.8,0.866,0,0);</label>
+
+    <input type="radio" name="transform" value="matrix1" class="matrix1" /><label for="matrix1">transform:
+        matrix(0.586,0.8,-0.8,0.586,0,0);</label>
+
+    <input type="radio" name="transform" value="matrix2" class="matrix2" /><label for="matrix2">transform:
+        matrix(0.586,0.8,-0.8,0.586,40,30);</label>
+
+    <img src="./hulk.webp" alt="" height="250px" width="160px" />
+</body>
+
+</html>
