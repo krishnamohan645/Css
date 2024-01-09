@@ -1,0 +1,47 @@
+.chess {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.light {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    background-color: aqua
+}
+.dark {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgba(48, 48, 77, 0.826);
+}
+h2 {
+    text-align: center;
+}
+h2:hover {
+    background-color: yellow;
+}
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+.light:hover {
+    background-color: white;
+}
+.dark:hover {
+    background-color: yellow;
+}    
+.dark:active {
+    background-color: red;
+}
+.light:active {
+    background-color: red;
+}
+h2:active {
+    background-color: orange;
+}
