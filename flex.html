@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calender UI</title>
+    <style>
+      body {
+        background: #262626 url() no-repeat center / cover;
+        display: flex;
+        
+      }
+      .picture {
+        height: 150px;
+        width: 300px;
+        border-radius: 10px;
+        background: #262626 url(./a44a1efbdc1f719a5d7c2708122750fa.jpg)
+          no-repeat center / cover;
+      }
+      h2 {
+        margin: 0;
+        color: white;
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+      h3 {
+        color: white;
+        margin: 0;
+        padding-left: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+      .date {
+        background-color: white;
+        width: 300px;
+        height: 350px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .day {
+        font-weight: bold;
+        padding: 15px;
+      }
+      .num {
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 20px;
+        height: 10px;
+        width: 1px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+      }
+      .num:hover {
+        background-color: #009688;
+        cursor: pointer;
+        color: #fff !important;
+        font-weight: 700;
+      }
+      #h:hover {
+        background-color: #009688;
+        cursor: pointer;
+      }
+      .calender {
+        padding: 20px;
+      }
+      .main {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 50px;
+        padding-top: 100px;
+      }
+      h1 {
+        font-size: 50px;
+        color: white;
+       position: relative;
+       left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><u>2024</u></h1>
+    <div class="main">
+      <div class="calender">
+        <div class="picture">
+          <h2>08, Monday</h2>
+          <h3>JANUARY</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num" style="color: red; font-weight: bold">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num" style="color: red; font-weight: bold">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num" style="color: red; font-weight: bold">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num" style="color: red; font-weight: bold">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">FEBRAURY</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num" style="color: red; font-weight: bold">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num" style="color: red; font-weight: bold">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num" style="color: red; font-weight: bold">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num" style="color: red; font-weight: bold">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">MARCH</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num" style="color: red; font-weight: bold">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num" style="color: red; font-weight: bold">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num" style="color: red; font-weight: bold">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num" style="color: red; font-weight: bold">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num" style="color: red; font-weight: bold">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">APRIL</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num" style="color: red; font-weight: bold">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num" style="color: red; font-weight: bold">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num" style="color: red; font-weight: bold">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num" style="color: red; font-weight: bold">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">MAY</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num" style="color: red; font-weight: bold">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num" style="color: red; font-weight: bold">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num" style="color: red; font-weight: bold">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num" style="color: red; font-weight: bold">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">JUNE</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num" style="color: red; font-weight: bold">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num" style="color: red; font-weight: bold">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num" style="color: red; font-weight: bold">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num" style="color: red; font-weight: bold">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num" style="color: red; font-weight: bold">30</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">JULY</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num" style="color: red; font-weight: bold">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num" style="color: red; font-weight: bold">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num" style="color: red; font-weight: bold">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num" style="color: red; font-weight: bold">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">AUGUST</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num" style="color: red; font-weight: bold">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num" style="color: red; font-weight: bold">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num" style="color: red; font-weight: bold">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num" style="color: red; font-weight: bold">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">SEPTEMBER</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num" style="color: red; font-weight: bold">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num" style="color: red; font-weight: bold">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num" style="color: red; font-weight: bold">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num" style="color: red; font-weight: bold">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num" style="color: red; font-weight: bold">29</div>
+          <div class="num">30</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">OCTOBER</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num" style="color: red; font-weight: bold">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num" style="color: red; font-weight: bold">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num" style="color: red; font-weight: bold">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num" style="color: red; font-weight: bold">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">NOVEMBER</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num"></div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num" style="color: red; font-weight: bold">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num" style="color: red; font-weight: bold">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num">15</div>
+          <div class="num">16</div>
+          <div class="num" style="color: red; font-weight: bold">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num">22</div>
+          <div class="num">23</div>
+          <div class="num" style="color: red; font-weight: bold">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num">29</div>
+          <div class="num">30</div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="picture">
+          <h3 style="padding: 20px">DECEMBER</h3>
+        </div>
+        <div class="date">
+          <div class="day" style="color: red">S</div>
+          <div class="day">M</div>
+          <div class="day">T</div>
+          <div class="day">W</div>
+          <div class="day">T</div>
+          <div class="day">F</div>
+          <div class="day">S</div>
+          <div class="num" style="color: red; font-weight: bold">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num" style="color: red; font-weight: bold">8</div>
+          <div class="num">9</div>
+          <div class="num">10</div>
+          <div class="num">11</div>
+          <div class="num">12</div>
+          <div class="num">13</div>
+          <div class="num">14</div>
+          <div class="num" style="color: red; font-weight: bold">15</div>
+          <div class="num">16</div>
+          <div class="num">17</div>
+          <div class="num">18</div>
+          <div class="num">19</div>
+          <div class="num">20</div>
+          <div class="num">21</div>
+          <div class="num" style="color: red; font-weight: bold">22</div>
+          <div class="num">23</div>
+          <div class="num">24</div>
+          <div class="num">25</div>
+          <div class="num">26</div>
+          <div class="num">27</div>
+          <div class="num">28</div>
+          <div class="num" style="color: red; font-weight: bold">29</div>
+          <div class="num">30</div>
+          <div class="num">31</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
